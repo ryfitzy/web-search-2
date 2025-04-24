@@ -1,0 +1,7 @@
+Flask
+Flask-Cors
+pandas
+elasticsearch
+python-dotenv
+requests
+gunicorn

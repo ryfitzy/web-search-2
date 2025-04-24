@@ -1,0 +1,25 @@
+.HomePage {
+  text-align: center;
+}
+.HomePage-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.HomePage-button{
+  background-color: #282c34;
+  border-color: #e0e3e8;
+  border-width: 5px;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(240, 243, 243);
+}

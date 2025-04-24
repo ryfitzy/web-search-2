@@ -1,0 +1,66 @@
+.LocalSongSearch {
+    text-align: center;
+  }
+.LocalSongSearch-header {
+    background-color: #282c34;
+    max-height: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+.LocalSongSearch-body {
+    background-color: #282c34;
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+.LocalSongSearch-button{
+    background-color: #282c34;
+    flex-direction: column;
+    padding: 10px;
+    border: 2px solid #e0e3e8;
+    height: 50px;
+    font-size: calc(10px + 2vmin);
+    color: rgb(240, 243, 243);
+    cursor: pointer;
+  }
+.LocalSongSearch-input-container {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 70vh;
+    height: 30px;
+  }
+  
+.LocalSongSearch-input {
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    font-size: 28px;
+    background-color: white;
+    border: 1px solid #ccc;
+    color: black;
+  }
+.LocalSongSearch-results {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 80vw;
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: black;
+  align-self: center;
+  padding: 10px;
+}
