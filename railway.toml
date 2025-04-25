@@ -1,0 +1,12 @@
+[build]
+# This installs dependencies for both frontend and backend
+commands = [
+  "cd frontend && npm install && npm run build",
+  "cp -r frontend/build backend/build",
+  "pip install -r backend/requirements.txt"
+]
+
+[start]
+# This starts your Flask backend using gunicorn
+cmd = "gunicorn app:app -b 0.0.0.0:8000"
+dir = "backend"
